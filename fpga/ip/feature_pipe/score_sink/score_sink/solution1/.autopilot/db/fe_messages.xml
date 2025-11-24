@@ -1,0 +1,15 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/josh-noble/Documents/hft/neuro-hft-fpga/fpga/ip/feature_pipe/score_sink/hls.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="score_sink" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=score_sink" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="score_sink.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="score_sink" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=s_axis_score" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="score_sink.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="score_sink" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=done_pulse" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="score_sink.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="score_sink" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

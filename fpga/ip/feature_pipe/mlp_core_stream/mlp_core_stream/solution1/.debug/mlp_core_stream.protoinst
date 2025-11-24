@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"mlp_core_stream": {
+			"proto_instances": {
+			}
+		}
+	}
+}

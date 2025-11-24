@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Vivado projects and outputs
+fpga/vivado/vivado_proj/
+fpga/vivado/build/
+*.log
+*.jou
+*.str
+
+# HLS generated projects/outputs (keep top-level *.cpp and *.tcl)
+fpga/ip/feature_pipe/feature_pipe_hls/
+fpga/ip/feature_pipe/logs/
+fpga/ip/feature_pipe/*/solution*/
+fpga/ip/feature_pipe/mlp_infer/*.log
+
+# Traffic Gen HLS artifacts
+fpga/ip/traffic_gen/hls_*/
+fpga/ip/traffic_gen/logs/
+
+# FPGA bitstreams / hw handoff copied into repo
+*.bit
+*.hwh
+
+# Built host binaries
+host/udp/replay-udp
+host/dpdk/echo-io/echo-io
+
+# Sample data
+sample_data/
+
+# Models: Generated datasets and intermediate exports
+models/datasets/out/
+models/exports/fp32/
+models/exports/int8/logreg_int8.json
+
+# Keep: models/exports/bitstream/ (BRAM init files)
+# Keep: models/exports/int8/mlp_int8.json (quantized MLP for FPGA)
+
+# Docs
+docs/common-commands.md
+docs/roadmap.md
+docs/experiments/
+HANDOFF.md

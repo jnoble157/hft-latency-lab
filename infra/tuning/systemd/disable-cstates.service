@@ -1,0 +1,14 @@
+[Unit]
+Description=Set performance governor and minimize C-states for low latency
+After=multi-user.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash -c 'for cpu in /sys/devices/system/cpu/cpu[0-9]*; do echo performance > "$cpu/cpufreq/scaling_governor" 2>/dev/null || true; done'
+ExecStart=/bin/bash -c 'if [ -f /sys/devices/system/cpu/intel_pstate/no_turbo ]; then echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo; fi'
+
+[Install]
+WantedBy=multi-user.target
+
+

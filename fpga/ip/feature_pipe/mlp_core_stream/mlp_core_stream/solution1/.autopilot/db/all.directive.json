@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "mlp_core_stream",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "mlp_core_stream"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/josh-noble/Documents/hft/neuro-hft-fpga/fpga/ip/feature_pipe/mlp_core_stream/hls.tcl",
+    "sourceLine": 7,
+    "success": true
+  }
+]

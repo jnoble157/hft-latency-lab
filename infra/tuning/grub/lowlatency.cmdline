@@ -1,0 +1,4 @@
+# Template (computed from config.sh by apply.sh). Examples only:
+# isolcpus=2-7,10-11 nohz_full=2-7,10-11 rcu_nocbs=2-7,10-11 idle=poll processor.max_cstate=0 intel_pstate=disable
+
+

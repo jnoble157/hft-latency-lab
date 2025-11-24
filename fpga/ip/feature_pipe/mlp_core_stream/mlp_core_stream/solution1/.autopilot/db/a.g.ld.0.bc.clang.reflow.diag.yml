@@ -1,0 +1,27 @@
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: mlp_core_stream.cpp, Line: 24, Column: 0 }
+Function:        _Z15mlp_core_streamRN3hls6streamINS_4axisI7ap_uintILi128EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi32EELm0ELm0ELm0ELh56ELb0EEELi0EEERb
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_45_1
+  - String:          ''' ('
+  - LoopLoc:         'mlp_core_stream.cpp:45:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          mlp_core_stream
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_mlp_core_stream_ir
+Args:            
+  - Callee:          'mlp_core_stream(hls::stream<hls::axis<ap_uint<128>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<32>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: mlp_core_stream.cpp, Line: 24, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_mlp_core_stream_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...

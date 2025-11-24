@@ -1,0 +1,15 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_dest_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_user_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_strb_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_data_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_keep_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_last_ptr" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="empty" off="0" region="0" recursive="0"/>
+<pragma file="score_sink.cpp" line="21" pragmaType="interface" parentfunction="score_sink" mode="axis" port="s_axis_score" register="1" register_mode="both" name="" depth="-1"/>
+<pragma file="score_sink.cpp" line="22" pragmaType="interface" parentfunction="score_sink" mode="ap_none" port="done_pulse" name="" register="0"/>
+<pragma file="score_sink.cpp" line="23" pragmaType="interface" parentfunction="score_sink" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<1, false>::operator unsigned long long() const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="get_id_ptr" off="0" region="0" recursive="0"/>
+</pragmas>

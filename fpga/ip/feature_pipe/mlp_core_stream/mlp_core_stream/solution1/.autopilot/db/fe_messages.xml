@@ -1,0 +1,24 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/josh-noble/Documents/hft/neuro-hft-fpga/fpga/ip/feature_pipe/mlp_core_stream/hls.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=mlp_core_stream" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mlp_core_stream.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=s_axis_feat" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mlp_core_stream.cpp:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=m_axis_score" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mlp_core_stream.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=done_pulse" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mlp_core_stream.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="mlp_core_stream.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mlp_core_stream" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="mlp_core_stream.cpp:24:0" msg_body="Unrolling loop 'VITIS_LOOP_45_1' (mlp_core_stream.cpp:45:22) in function 'mlp_core_stream' completely with a factor of 4">
+        <args Factor="4" LoopLoc="mlp_core_stream.cpp:45:22" LoopName="VITIS_LOOP_45_1"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

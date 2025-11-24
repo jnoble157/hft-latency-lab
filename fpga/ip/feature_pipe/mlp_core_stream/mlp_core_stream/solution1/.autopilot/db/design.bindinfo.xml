@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln47_fu_162_p2" SOURCE="mlp_core_stream.cpp:47" VARIABLE="xor_ln47" MODULE="mlp_core_stream" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="xor_ln47_1_fu_168_p2" SOURCE="mlp_core_stream.cpp:47" VARIABLE="xor_ln47_1" MODULE="mlp_core_stream" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op xor" ID="" IMPL="auto" LATENCY="0" OPTYPE="xor" PRAGMA="" RTLNAME="m_axis_score_TDATA_int_regslice" SOURCE="mlp_core_stream.cpp:47" VARIABLE="acc_1" MODULE="mlp_core_stream" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+</BindInfo>

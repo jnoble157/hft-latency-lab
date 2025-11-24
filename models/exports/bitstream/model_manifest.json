@@ -1,0 +1,22 @@
+{
+  "type": "mlp",
+  "files": {
+    "w0": "/home/josh-noble/Documents/hft/neuro-hft-fpga/models/exports/bitstream/w0.mem",
+    "b0": "/home/josh-noble/Documents/hft/neuro-hft-fpga/models/exports/bitstream/b0.mem",
+    "w1": "/home/josh-noble/Documents/hft/neuro-hft-fpga/models/exports/bitstream/w1.mem",
+    "b1": "/home/josh-noble/Documents/hft/neuro-hft-fpga/models/exports/bitstream/b1.mem"
+  },
+  "scales": {
+    "in_scale": 692.7086614173228,
+    "w0_scale": 195393.85826771654,
+    "b0_scale": 135351018.00979602,
+    "act0_scale": 7.874015748031496e-15,
+    "w1_scale": 0.0017299701379118835,
+    "b1_scale": 1.7299701379118834e-15
+  },
+  "topology": {
+    "in_dim": 4,
+    "hidden": 32,
+    "out_dim": 1
+  }
+}

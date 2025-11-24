@@ -1,0 +1,22 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="score_sink"/>
+    </project>
+    <flowTarget value="vivado"/>
+    <targetInfo>
+        <TargetInfo value="xc7z020:-clg400:-1"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynq/zynq" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock name="default" period="10" default="false"/>
+    </clockList>
+    <config>
+        <config_export display_name="NeuroHFT Score Sink" format="ip_catalog"/>
+    </config>
+</AutoPilot:solution>
+

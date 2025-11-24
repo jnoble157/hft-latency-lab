@@ -1,0 +1,21 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 3,
+    "file": "mlp_core_stream.cpp",
+    "fileloc": 22,
+    "instructions": 76,
+    "loads": {
+      "L": 2
+    },
+    "memory_accesses": 0,
+    "name": "mlp_core_stream",
+    "stores": {
+      "L": 2,
+      "T": 2
+    },
+    "total_instructions": 76
+  }
+}

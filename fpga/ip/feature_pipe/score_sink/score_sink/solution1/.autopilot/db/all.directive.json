@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "score_sink",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "score_sink"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/josh-noble/Documents/hft/neuro-hft-fpga/fpga/ip/feature_pipe/score_sink/hls.tcl",
+    "sourceLine": 7,
+    "success": true
+  }
+]
