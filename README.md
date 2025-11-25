@@ -1,5 +1,3 @@
-# neuro-hft-fpga
-
 > A lab notebook on putting a tiny MLP into an FPGA datapath and counting the cycles honestly.
 
 ---
